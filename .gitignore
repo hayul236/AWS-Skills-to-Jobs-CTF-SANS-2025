@@ -1,0 +1,7 @@
+# Publish only the write-up and cleaned solvers.
+# Ignore everything by default, then un-ignore the two things we want.
+*
+!.gitignore
+!README.md
+!solvers/
+!solvers/**
